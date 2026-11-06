@@ -1,4 +1,4 @@
-package _06OOP.ClassAndInheritance.Exercise8;
+package _06OOP.ClassAndInheritance.Exercise10;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
