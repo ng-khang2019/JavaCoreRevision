@@ -4,9 +4,19 @@ public class Main {
     public static void main(String[] args) {
         // String length
         String text = "Gracias!";
-        System.out.println(text.length());
+        System.out.println(text.length()+"\n");
+
 
         // String concatenation
+
+        // String objects memory address comparison
+        System.out.println("String objects memory address comparison:");
+        String a = "Gracias!";
+        String b = "Gracias!";
+        System.out.println(a == b);
+        String c = new String("Gracias!");
+        System.out.println(a == c);
+        System.out.print("\n");
 
         // String comparison
         System.out.println(text.equals("Gracias!"));
@@ -65,8 +75,8 @@ public class Main {
 
         // Turn a string into an array of characters
         char[] chars = newText.toCharArray();
-        for (char c : chars) {
-            System.out.print(c + ' ');
+        for (char x : chars) {
+            System.out.print(x + ' ');
         }
 
 
