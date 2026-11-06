@@ -7,9 +7,6 @@ public class Main {
         System.out.println(text.length());
 
         // String concatenation
-        String first = "Goodnight, ";
-        String second = "Jimmy";
-        System.out.println(first.concat(second));
 
         // String comparison
         System.out.println(text.equals("Gracias!"));
@@ -19,6 +16,16 @@ public class Main {
         // Check if a string is blank or empty
 
         // Return the character at a specific index
+
+        // Return substring, subsequence
+        text = "Hello, World!";
+        System.out.println(text.substring(0, 5));
+        System.out.println(text.substring(6));
+        System.out.println(text.subSequence(0, 5));
+
+        // Return a string repeated a specific number of times
+
+        // indent
 
         // Check if a string contains a specific character or substring
 
@@ -47,6 +54,8 @@ public class Main {
         String phrase = "You son of a bear!";
         System.out.println(phrase.toUpperCase());
         System.out.println(phrase.toLowerCase());
+
+        // concat, join
 
         // Split a string into an array of substrings
         String[] words = newText.split(" ");
