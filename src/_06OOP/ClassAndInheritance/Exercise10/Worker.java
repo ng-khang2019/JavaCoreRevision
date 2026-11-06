@@ -1,4 +1,4 @@
-package _06OOP.ClassAndInheritance.Exercise8;
+package _06OOP.ClassAndInheritance.Exercise10;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

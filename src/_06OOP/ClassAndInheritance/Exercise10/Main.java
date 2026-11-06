@@ -1,4 +1,4 @@
-package _06OOP.ClassAndInheritance.Exercise8;
+package _06OOP.ClassAndInheritance.Exercise10;
 
 public class Main {
     public static void main(String[] args) {
